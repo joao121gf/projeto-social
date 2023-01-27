@@ -79,3 +79,19 @@ iframe {
 }
 
 
+/* Para celulares */
+@media (max-width: 410px) {
+    .miniaturas {
+        width: 64px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgb(0 0 0 / 40%);
+        position: relative;
+    }
+    .icons {
+        text-align: right;
+        /* padding: 10px; */
+        margin-top: 50px;
+        padding-right: 0px;
+
+    }
+}
